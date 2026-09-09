@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 
-function MenuNavegacao() {
+function MenuFooter() {
     return (
         <nav className="footer__menu">
             <Link to="/" className="">
@@ -34,4 +34,4 @@ function MenuNavegacao() {
     );
 }
 
-export default MenuNavegacao;
+export default MenuFooter;
