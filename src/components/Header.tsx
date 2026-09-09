@@ -1,4 +1,5 @@
 import MenuNavegacao from "./MenuNavegacao";
+import SoulMove_Pequena from "../assets/SoulMove_Pequena.png"
 
 function Header() {
     return (
@@ -6,7 +7,7 @@ function Header() {
 
             <button>☰</button>
 
-  {/* imagem vai aq */}
+            <img src={SoulMove_Pequena} alt="" />
 
             <MenuNavegacao />
 
