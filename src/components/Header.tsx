@@ -5,7 +5,7 @@ function Header() {
     return (
         <header className="
         w-full
-        bg-gradient-to-r
+        bg-linear-to-r
          from-sky-400
          to-indigo-500
          flex
