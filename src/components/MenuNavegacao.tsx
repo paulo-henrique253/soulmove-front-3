@@ -6,12 +6,12 @@ function MenuNavegacao() {
     font-['Momo_Trust_Display']
     text-white
     hover:opacity-80
-    text-[clamp(.7rem,2.5vw,.95rem)]
+    text-[clamp(.95rem,2.5vw,.95rem)]
     font-normal
     no-underline
     whitespace-nowrap
 
-    md:text-[0.95rem]
+    md:text-[1.1rem]
     `
 
     return (
