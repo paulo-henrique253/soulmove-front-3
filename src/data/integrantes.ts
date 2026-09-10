@@ -18,7 +18,7 @@ export const integrantes: Integrante[] = [
     foto: "/assets/zeni.png",
     github: "https://github.com/F-Zeni",
     linkedin: "https://www.linkedin.com/in/enzo-fachinelli-zeni-687a873b3",
-    sobre: "adicionar",
+    sobre: "Tenho interesse em tecnologia, programação e banco de dados. Busco sempre aprimorar meus conhecimentos, aprender novas tecnologias e evoluir profissionalmente",
   },
   {
     nome: "Jacqueline Lotufo",
@@ -28,7 +28,7 @@ export const integrantes: Integrante[] = [
     foto: "/assets/jac.png",
     github: "https://github.com/jacquelot",
     linkedin: "https://br.linkedin.com/in/jacqueline-lotufo",
-    sobre: "adicionar",
+    sobre: "Sou designer e atualmente estudo programação. Gosto de criar, entender como as coisas funcionam e explorar formas de conectar tecnologia, design e saúde.",
   },
   {
     nome: "Julia de Freitas",
@@ -38,7 +38,7 @@ export const integrantes: Integrante[] = [
     foto: "/assets/ju.png",
     github: "https://github.com/lixzaura",
     linkedin: "https://www.linkedin.com/in/lixzaura",
-    sobre: "adicionar",
+    sobre: "Sou ilutradora e atualmente estou entrando no ramo da programação, esotu gostando muito de estudar e pretendo focar totalmente em backend.",
   },
   {
     nome: "Paulo Henrique",
@@ -48,7 +48,7 @@ export const integrantes: Integrante[] = [
     foto: "/assets/ph.png",
     github: "https://github.com/paulo-henrique253",
     linkedin: "https://www.linkedin.com/in/paulo-henrique-gomes-gon%C3%A7alves-aa04b5272/",
-    sobre: "adicionar",
+    sobre: "Gosto de estudar programação e outros idiomas. Atualmente estou focando em backend e em estudar japonês.",
   },
   {
     nome: "Danielle Fernanda",
@@ -58,6 +58,6 @@ export const integrantes: Integrante[] = [
     foto: "/assets/dani.png",
     github: "https://github.com/daniellekgn",
     linkedin: "https://www.linkedin.com/in/danielle-fernanda-kagan-9026b141b/",
-    sobre: "adicionar",
+    sobre: "Tenho interesse em tecnologia, desenvolvimento de interfaces e UX-UI. Atualmente também estou gostando bastante de trabalhar com Back-end.",
   },
 ];
