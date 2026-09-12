@@ -1,4 +1,5 @@
 import CardFuncionalidade from '../components/CardFuncionalidade';
+import TituloPagina from '../components/TituloPagina';
 import { funcionalidadesData } from '../data/funcionalidades'; // Importando os dados!
 
 function Funcionalidades() {
@@ -8,9 +9,8 @@ function Funcionalidades() {
     <div className="min-h-screen flex flex-col font-sans text-gray-900 bg-white">
       
       <main className="flex-1 w-full max-w-5xl mx-auto px-6 py-12">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-center text-sky-400 mb-16">
-          Como a SoulMove funciona?
-        </h1>
+
+        <TituloPagina texto="Como a SoulMove funciona?"/>
         
         <div className="space-y-8">
           {funcionalidadesData.map((funcionalidade, index) => (
