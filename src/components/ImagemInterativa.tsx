@@ -8,7 +8,7 @@ type ImagemInterativaProps = {
 function ImagemInterativa( { principalSrc, principalAlt, secundarioSrc, secundarioAlt }: ImagemInterativaProps) {
     return (
         <div 
-        className="relative w-full max-w-sm aspect-[9/16] group cursor-pointer overflow-hidden rounded-xl shadow-lg border border-gray-200"
+        className="relative w-full max-w-sm aspect-9/16 group cursor-pointer overflow-hidden rounded-xl shadow-lg border border-gray-200"
         >
             <img className="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ease-in-out group-hover:opacity-0 group-focus:opacity-0" 
             src={principalSrc} 
