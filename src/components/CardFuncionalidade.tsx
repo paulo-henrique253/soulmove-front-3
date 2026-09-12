@@ -16,15 +16,15 @@ function CardFuncionalidade( { inverterOrdem = false, titulo, descricao, imagemP
     return (
             <section className={`flex flex-col ${inverterOrdem ? "md:flex-row-reverse" : "md:flex-row"} items-center justify-between gap-12 py-12 border-b border-gray-100 last:border-0`}>
                 <div className="flex-1 space-y-5">
-                    <h2 className="text-3xl font-bold text-gray-800">
+                    <h2 className="font-['Momo_Trust_Display'] text-3xl font-bold text-gray-800">
                         {titulo}
                     </h2>
 
-                    <p className="text-lg text-gray-600 leading-relaxed">
+                    <p className="font-['Lexend_Deca'] text-lg text-gray-600 leading-relaxed">
                         {descricao}
                     </p>
 
-                    <p className="inline-block px-4 py-2 text-sky-400 font-semibold text-sm">
+                    <p className="font-['Lexend_Deca'] inline-block px-4 py-2 text-sky-400 font-semibold text-sm">
                         Interaja com a imagem!
                     </p>
                 </div>
