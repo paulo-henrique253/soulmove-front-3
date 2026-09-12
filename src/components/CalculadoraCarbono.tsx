@@ -20,18 +20,18 @@ function CalculadoraCarbono() {
           placeholder="Insira uma quilometragem"
           value={km}
           onChange={(e) => setKm(e.target.value)}
-          className="flex-1 px-6 py-4 rounded-xl border border-gray-300 text-lg focus:outline-none focus:ring-2 focus:ring-sky-500"
+          className="flex-1 px-6 py-4 rounded-xl bg-linear-to-r from-sky-300 to-indigo-200  text-lg focus:outline-none focus:ring-2 focus:ring-sky-500"
         />
         <button
           type="submit"
-          className="px-8 py-4 bg-sky-600 text-white font-bold rounded-xl hover:bg-sky-700 transition"
+          className="px-8 py-4 bg-linear-to-r from-indigo-500 to-sky-400  text-white font-bold rounded-xl"
         >
           Enviar
         </button>
       </form>
 
       {resultado && (
-        <div className="flex items-center justify-center gap-3 text-2xl font-bold text-sky-700">
+        <div className="font-['Lexend_Deca'] flex items-center justify-center gap-3 text-2xl font-bold text-sky-700">
           <h2>Resultado:</h2>
           <p>{resultado}</p>
         </div>
