@@ -16,7 +16,7 @@ function CardFuncionalidade( { inverterOrdem = false, titulo, descricao, imagemP
     return (
             <section className={`flex flex-col ${inverterOrdem ? "md:flex-row-reverse" : "md:flex-row"} items-center justify-between gap-12 py-12 border-b border-gray-100 last:border-0`}>
                 <div className="flex-1 space-y-5 w-full">
-                    <h2 className="font-['Momo_Trust_Display'] text-3xl font-bold text-gray-800">
+                    <h2 className="font-['Momo_Trust_Display'] text-4xl font-bold text-gray-800">
                         {titulo}
                     </h2>
 
