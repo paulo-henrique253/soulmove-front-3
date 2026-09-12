@@ -5,9 +5,6 @@ import { funcionalidadesData } from '../data/funcionalidades'; // Importando os 
 function Funcionalidades() {
     
   return (
-    
-    <div className="min-h-screen flex flex-col font-sans text-gray-900 bg-white">
-      
       <main className="flex-1 w-full max-w-5xl mx-auto px-6 py-12">
 
         <TituloPagina texto="Como a SoulMove funciona?"/>
@@ -27,8 +24,6 @@ function Funcionalidades() {
           ))}
         </div>
       </main>
-
-    </div>
   );
 }
 
