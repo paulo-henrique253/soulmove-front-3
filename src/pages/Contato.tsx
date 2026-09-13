@@ -96,14 +96,14 @@ function Contato() {
             <button
               type="button"
               onClick={() => setModalAberto(false)}
-              className="relative left-[calc(100%-4rem)] font-['Momo_Trust_Display'] text-3xl text-white"
+              className="pb-2 relative left-[calc(100%-4rem)] font-['Momo_Trust_Display'] sm:text-3xl text-white"
             >
               X
             </button>
-            <h2 className="mb-8 text-center font-['Momo_Trust_Display'] text-3xl text-white">
+            <h2 className="mb-8 text-center font-['Momo_Trust_Display'] sm:text-3xl text-white">
               Muito Obrigado!
             </h2>
-            <p className="p-4 text-center font-['Lexend_Deca'] text-xl text-white">
+            <p className="p-4 text-center font-['Lexend_Deca'] sm:text-xl text-white">
               Recebemos sua mensagem e retornaremos o mais rápido possível!
             </p>
           </div>
