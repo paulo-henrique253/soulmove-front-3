@@ -1,6 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import TituloPagina from "../components/TituloPagina";
+import ContatoInput from "../components/ContatoInput";
+import ContatoTextarea from "../components/ContatoTextarea";
 import CampoInput from "../components/ContatoInput";
 import CampoTextarea from "../components/ContatoTextarea";
 import imgContato from "../assets/contato_img_soum.png";
@@ -16,6 +18,16 @@ function Contato() {
     formState: { errors },
   } = useForm<ContatoFormData>({ defaultValues: contatoPadrao });
 
+  useEffect(() => {
+    if (!modalAberto) return;
+
+    const temporizador = setTimeout(() => {
+      setModalAberto(false);
+    }, 3000);
+
+    return () => clearTimeout(temporizador);
+  }, [modalAberto]);
+
   const onSubmit = (dados: ContatoFormData) => {
     console.log(dados);
     setModalAberto(true);
@@ -29,7 +41,7 @@ function Contato() {
       <section className="flex flex-col items-center justify-center gap-10 lg:flex-row lg:gap-24">
         <div className="w-full max-w-lg lg:max-w-2xl">
           <form onSubmit={handleSubmit(onSubmit)} noValidate className="flex flex-col gap-4">
-            <CampoInput
+            <ContatoInput
               id="nome"
               label="Nome"
               type="text"
@@ -38,7 +50,7 @@ function Contato() {
               {...register("nome", { required: "Informe seu nome." })}
             />
 
-            <CampoInput
+            <ContatoInput
               id="email"
               label="E-mail"
               type="email"
@@ -53,7 +65,7 @@ function Contato() {
               })}
             />
 
-            <CampoInput
+            <ContatoInput
               id="telefone"
               label="Telefone"
               type="tel"
@@ -61,7 +73,7 @@ function Contato() {
               {...register("telefone")}
             />
 
-            <CampoTextarea
+            <ContatoTextarea
               id="mensagem"
               label="Mensagem"
               placeholder="Digite sua mensagem"
