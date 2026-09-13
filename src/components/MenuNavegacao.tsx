@@ -29,7 +29,7 @@ function MenuNavegacao() {
 
         md:static
         md:flex-row
-        nd:gap-5
+        md:gap-5
         md:rounded-none
         md:bg-transparent
         md:p-0
