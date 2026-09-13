@@ -3,39 +3,42 @@ import { Link } from "react-router";
 function MenuNavegacao() {
 
     const estilosLink = `
-    font-['Momo_Trust_Display']
-    text-white
-    hover:opacity-80
-    text-[clamp(.95rem,2.5vw,.95rem)]
-    font-normal
-    no-underline
-    whitespace-nowrap
-
-    md:text-[1.1rem]
-    `
+        font-['Momo_Trust_Display']
+        text-white
+        hover:opacity-80
+        text-[clamp(.8rem,2vw,.95rem)]
+        font-normal
+        no-underline
+        whitespace-nowrap
+        md:text-[.8rem]
+        lg:text-[1rem]
+    `;
 
     return (
-        <nav className="
-        absolute
-        right-0
-        top-12
-        flex
-        flex-col
-        gap-8
-        rounded-2xl
-        p-5
-        bg-indigo-500
-        hidden
+        <nav
+            className="
+                absolute
+                right-0
+                top-12
+                flex
+                flex-col
+                gap-8
+                rounded-2xl
+                p-5
+                bg-indigo-500
+                hidden
 
-        md:static
-        md:flex-row
-        md:gap-5
-        md:rounded-none
-        md:bg-transparent
-        md:p-0
-        md:flex
-        "
-        id="menu"
+                md:static
+                md:flex-row
+                md:gap-2
+                md:rounded-none
+                md:bg-transparent
+                md:p-0
+                md:flex
+
+                lg:gap-5
+            "
+            id="menu"
         >
             <Link to="/" className={estilosLink}>
                 Início
@@ -64,7 +67,8 @@ function MenuNavegacao() {
             <Link to="/contato" className={estilosLink}>
                 Contato
             </Link>
-        </nav>);
+        </nav>
+    );
 }
 
 export default MenuNavegacao;
