@@ -33,6 +33,7 @@ function MenuNavegacao() {
         md:rounded-none
         md:bg-transparent
         md:p-0
+        md:flex
         "
         id="menu"
         >
