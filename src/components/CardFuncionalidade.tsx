@@ -24,7 +24,7 @@ function CardFuncionalidade( { inverterOrdem = false, titulo, descricao, imagemP
                         {descricao}
                     </p>
 
-                    <p className="font-['Lexend_Deca'] inline-block px-4 py-2 text-sky-400 font-semibold text-sm">
+                    <p className="hidden lg:inline-block font-['Lexend_Deca'] px-4 py-2 text-sky-400 font-semibold text-sm">
                         Interaja com a imagem!
                     </p>
                 </div>
