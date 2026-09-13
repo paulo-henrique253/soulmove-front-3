@@ -16,7 +16,7 @@ const ContatoTextarea = forwardRef<HTMLTextAreaElement, ContatoTextareaProps>(
         <textarea
           id={id}
           ref={ref}
-          className="min-h-[9rem] w-full resize-y rounded-lg bg-linear-to-b from-sky-100 to-indigo-100 px-4 py-3 font-['Lexend_Deca'] text-gray-900 placeholder:text-gray-500"
+          className="min-h-36 w-full resize-y rounded-lg bg-linear-to-b from-sky-100 to-indigo-100 px-4 py-3 font-['Lexend_Deca'] text-gray-900 placeholder:text-gray-500"
           {...props}
         />
         {erro && <span className="font-['Lexend_Deca'] text-sm text-rose-500">{erro}</span>}
