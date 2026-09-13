@@ -28,11 +28,11 @@ function Integrante(){
                     className=" h-[90%] w-full  object-cover self-center row-[1/5] col-[1/2] rounded-2xl"
                 />
                 <h2 className="font-['Momo_Trust_Display'] text-white col-[2/3]">{integrante.nome}</h2>
-                <p className="font-['Lexend-Deca'] text-white">{integrante.rm}</p>
-                <p className="font-['Lexend-Deca'] text-white">{integrante.turma}</p>
+                <p className="font-['Lexend_Deca'] text-white">{integrante.rm}</p>
+                <p className="font-['Lexend_Deca'] text-white">{integrante.turma}</p>
                     
                 
-                <p className="font-['Lexend-Deca'] text-white max-w-[80%] place-self-center text-center">{integrante.sobre}</p>
+                <p className="font-['Lexend_Deca'] text-white max-w-[80%] place-self-center text-center">{integrante.sobre}</p>
 
                 <div className="row-[5/6] col-[1/3] flex gap-5">
                     <a 
