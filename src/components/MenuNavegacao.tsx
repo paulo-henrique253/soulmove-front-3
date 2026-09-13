@@ -25,14 +25,17 @@ function MenuNavegacao() {
         rounded-2xl
         p-5
         bg-indigo-500
-        
+        hidden
+
         md:static
         md:flex-row
         nd:gap-5
         md:rounded-none
         md:bg-transparent
         md:p-0
-        ">
+        "
+        id="menu"
+        >
             <Link to="/" className={estilosLink}>
                 Início
             </Link>
