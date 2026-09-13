@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import TituloPagina from "../components/TituloPagina";
 import CampoInput from "../components/ContatoInput";
 import CampoTextarea from "../components/ContatoTextarea";
+import imgContato from "../assets/contato_img_soum.png";
 import { contatoPadrao, type ContatoFormData } from "../data/contatos";
 
 function Contato() {
@@ -79,12 +80,13 @@ function Contato() {
 
         <div className="hidden w-full max-w-md flex-col justify-between self-start lg:flex lg:h-[26rem]">
           <h2 className="font-['Momo_Trust_Display'] text-2xl text-indigo-600">Fale com a SoulMove</h2>
-          <p className="font-['Lexend_Deca'] text-gray-900">
+          <p className="font-['Lexend_Deca'] text-gray-900 text-2xl">
             Dúvidas, sugestões ou ideias? Vamos construir cidades mais sustentáveis juntos.
           </p>
-          <p className="font-['Lexend_Deca'] text-gray-900">
+          <p className="font-['Lexend_Deca'] text-gray-900 text-2xl">
             A <strong>transformação</strong> começa com <strong>conexão</strong>.
           </p>
+          <img src={imgContato} alt="Imagem da SoulMove" className="w-full h-auto rounded-3xl" />
         </div>
       </section>
 
