@@ -3,6 +3,9 @@ import { useForm } from "react-hook-form";
 import TituloPagina from "../components/TituloPagina";
 import ContatoInput from "../components/ContatoInput";
 import ContatoTextarea from "../components/ContatoTextarea";
+import CampoInput from "../components/ContatoInput";
+import CampoTextarea from "../components/ContatoTextarea";
+import imgContato from "../assets/contato_img_soum.png";
 import { contatoPadrao, type ContatoFormData } from "../data/contatos";
 
 function Contato() {
@@ -87,14 +90,15 @@ function Contato() {
           </form>
         </div>
 
-        <div className="hidden w-full max-w-md flex-col justify-between self-start lg:flex lg:h-[26rem]">
+        <div className="hidden w-full max-w-md flex-col justify-between self-start lg:flex lg:h-104">
           <h2 className="font-['Momo_Trust_Display'] text-2xl text-indigo-600">Fale com a SoulMove</h2>
-          <p className="font-['Lexend_Deca'] text-gray-900">
+          <p className="font-['Lexend_Deca'] text-gray-900 text-2xl">
             Dúvidas, sugestões ou ideias? Vamos construir cidades mais sustentáveis juntos.
           </p>
-          <p className="font-['Lexend_Deca'] text-gray-900">
+          <p className="font-['Lexend_Deca'] text-gray-900 text-2xl">
             A <strong>transformação</strong> começa com <strong>conexão</strong>.
           </p>
+          <img src={imgContato} alt="Imagem da SoulMove" className="w-full h-auto rounded-3xl" />
         </div>
       </section>
 
@@ -104,14 +108,14 @@ function Contato() {
             <button
               type="button"
               onClick={() => setModalAberto(false)}
-              className="relative left-[calc(100%-4rem)] font-['Momo_Trust_Display'] text-3xl text-white"
+              className="pb-2 relative left-[calc(100%-4rem)] font-['Momo_Trust_Display'] sm:text-3xl text-white"
             >
               X
             </button>
-            <h2 className="mb-8 text-center font-['Momo_Trust_Display'] text-3xl text-white">
+            <h2 className="mb-8 text-center font-['Momo_Trust_Display'] sm:text-3xl text-white">
               Muito Obrigado!
             </h2>
-            <p className="p-4 text-center font-['Lexend_Deca'] text-xl text-white">
+            <p className="p-4 text-center font-['Lexend_Deca'] sm:text-xl text-white">
               Recebemos sua mensagem e retornaremos o mais rápido possível!
             </p>
           </div>

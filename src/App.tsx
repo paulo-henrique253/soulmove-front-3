@@ -7,6 +7,7 @@ import Roadmap from "./pages/Roadmap"
 import Integrantes from "./pages/Integrantes"
 import Faq from "./pages/Faq"
 import Contato from "./pages/Contato"
+import Integrante from "./pages/Integrante"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/funcionalidades" element={<Funcionalidades />} />
         <Route path="roadmap" element={<Roadmap />} />
         <Route path="/integrantes" element={<Integrantes />} />
+        <Route path="/integrantes/:slug" element={<Integrante />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/faq" element={<Faq />} />
       </Route>
