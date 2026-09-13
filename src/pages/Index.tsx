@@ -66,7 +66,7 @@ function Index() {
           <img
             src={imgMeio}
             alt="Pessoa andando na rua"
-            className="w-full h-[200px] md:h-[600px] object-cover rounded-3xl shadow-2xl"
+            className="w-full h-50 md:h-150 object-cover rounded-3xl shadow-2xl"
           />
         </div>
 
