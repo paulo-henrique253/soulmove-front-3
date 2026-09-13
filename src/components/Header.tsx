@@ -40,7 +40,7 @@ function Header() {
 
             <img src={SoulMove_Pequena} alt="" className="block h-auto w-[clamp(120px,18vw,180px)]"/>
 
-            <MenuNavegacao />
+            <MenuNavegacao trocarMenu = {trocarMenu} />
 
         </header>
     );
