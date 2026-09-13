@@ -49,7 +49,4 @@ id: 10,
 titulo: "10. Empresas podem ser parceiras do app?",
 descricao: "Sim! Empresas podem participar por meio de parcerias e campanhas sustentáveis, estamos abertos a apoio e conexões.",
 },
-
-
-
-]
+];
