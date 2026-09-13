@@ -12,9 +12,9 @@ import { Link } from "react-router";
 import imgGithub from "../assets/GitHub.png";
 import imgLinkedin from "../assets/Linkedin.png";
 
-function IntegranteCard({nome, slug, turma, rm, foto, github, linkedin, sobre}: IntegranteCardProps){
+function IntegranteCard({nome, slug, rm, foto, github, linkedin}: IntegranteCardProps){
   return (
-    <div className="bg-linear-to-r from-sky-400 to-indigo-500 text-white [box-shadow:5px_5px_10px_0px_rgba(37,_59,_121,_0.3)] rounded-2xl flex flex-col gap-6 p-4 text-center self-center w-full max-w-sm">
+    <div className="bg-linear-to-r from-sky-400 to-indigo-500 text-white [box-shadow:5px_5px_10px_0px_rgba(37,59,121,0.3)] rounded-2xl flex flex-col gap-6 p-4 text-center self-center w-full max-w-sm">
       <h2 className="font-['Momo_Trust_Display'] font-normal text-3xl">{nome}</h2>
       
       {/* Definindo altura fixa e object-cover para padronizar todas as fotos */}
