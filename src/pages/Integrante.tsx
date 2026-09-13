@@ -12,7 +12,7 @@ function Integrante(){
     const integrante = (integrantes.find((integrante) => integrante.slug === slug))
     if(!integrante){
         return (<div className="py-10 flex justify-center text-center">
-            <div className="bg-linear-to-r from-sky-400 to-indigo-500 [box-shadow:5px_5px_10px_0px_rgba(37,_59,_121,_0.3)] h-120 px-5 self-center rounded-2xl grid items-center justify-center max-w-200">
+            <div className="bg-linear-to-r from-sky-400 to-indigo-500 [box-shadow:5px_5px_10px_0px_rgba(37,59,121,0.3)] h-120 px-5 self-center rounded-2xl grid items-center justify-center max-w-200">
                 <img src={placeholder} alt="Foto do integrante" 
                     className=" h-[90%] w-full  object-cover self-center col-[1/2] rounded-2xl"
                 />
@@ -23,7 +23,7 @@ function Integrante(){
     
     return (
         <div className="py-10 flex justify-center text-center">
-            <div className="bg-linear-to-r from-sky-400 to-indigo-500 [box-shadow:5px_5px_10px_0px_rgba(37,_59,_121,_0.3)] h-120 px-5 self-center rounded-2xl grid items-center justify-center max-w-200">
+            <div className="bg-linear-to-r from-sky-400 to-indigo-500 [box-shadow:5px_5px_10px_0px_rgba(37,59,121,0.3)] h-120 px-5 self-center rounded-2xl grid items-center justify-center max-w-200">
                 <img src={integrante.foto} alt="Foto do integrante" 
                     className=" h-[90%] w-full  object-cover self-center row-[1/5] col-[1/2] rounded-2xl"
                 />
