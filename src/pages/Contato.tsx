@@ -3,8 +3,6 @@ import { useForm } from "react-hook-form";
 import TituloPagina from "../components/TituloPagina";
 import ContatoInput from "../components/ContatoInput";
 import ContatoTextarea from "../components/ContatoTextarea";
-import CampoInput from "../components/ContatoInput";
-import CampoTextarea from "../components/ContatoTextarea";
 import imgContato from "../assets/contato_img_soum.png";
 import { contatoPadrao, type ContatoFormData } from "../data/contatos";
 
