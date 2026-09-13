@@ -3,6 +3,7 @@ import { integrantes } from "../data/integrantes";
 
 import imgLinkedin from "../assets/Linkedin.png";
 import imgGithub from "../assets/GitHub.png";
+import placeholder from "../assets/usuario_icognito.webp"
 
 function Integrante(){
     const {slug} = useParams()
@@ -10,7 +11,14 @@ function Integrante(){
 
     const integrante = (integrantes.find((integrante) => integrante.slug === slug))
     if(!integrante){
-        return (<></>)
+        return (<div className="py-10 flex justify-center text-center">
+            <div className="bg-linear-to-r from-sky-400 to-indigo-500 [box-shadow:5px_5px_10px_0px_rgba(37,_59,_121,_0.3)] h-120 px-5 self-center rounded-2xl grid items-center justify-center max-w-200">
+                <img src={placeholder} alt="Foto do integrante" 
+                    className=" h-[90%] w-full  object-cover self-center col-[1/2] rounded-2xl"
+                />
+                <h2 className="font-['Momo_Trust_Display'] text-white col-[2/3] px3 text-3xl">INTEGRANTE NÃO ENCONTRADO</h2>
+            </div>
+        </div>)
     }
     
     return (
