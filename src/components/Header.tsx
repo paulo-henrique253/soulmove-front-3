@@ -2,6 +2,10 @@ import MenuNavegacao from "./MenuNavegacao";
 import SoulMove_Pequena from "../assets/SoulMove_Pequena.png"
 
 function Header() {
+    function trocarMenu(){
+        const menu = document.querySelector("#menu")
+        menu?.classList.toggle("hidden")
+    }
     return (
         <header className="
         w-full
@@ -30,7 +34,9 @@ function Header() {
             text-3xl
 
             md:hidden
-            ">☰</button>
+            "
+            onClick={trocarMenu}
+            >☰</button>
 
             <img src={SoulMove_Pequena} alt="" className="block h-auto w-[clamp(120px,18vw,180px)]"/>
 
